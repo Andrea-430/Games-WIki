@@ -1,0 +1,80 @@
+html, body
+{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overscroll-behavior: none;
+    overflow: hidden;;
+}
+
+header
+{
+    margin : 0;
+
+    height: 60px;
+    width: auto;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+#imgLogo
+{
+    height: 40px;
+    width: 40px;
+}
+
+#logo
+{
+    display : flex;
+    align-items: center;
+    color : yellow;
+    text-decoration: none;
+}
+
+
+#opzioni 
+{
+    display : flex;
+    align-items: center;
+    color : yellow;
+    margin-right: 10px;
+    margin-left: auto;
+    
+    
+    gap : 20px;
+}
+
+.collegamenti
+{
+    color : yellow;
+    text-decoration: none;
+}
+
+#CorpoPagina
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+#CorpoPagina
+{
+    margin : 0;
+    height: 100%;
+    width: 100%;
+}
+
+#PanPrincipale
+{
+    margin : 0;
+    height: 100%;
+    width: 100%;
+}
+

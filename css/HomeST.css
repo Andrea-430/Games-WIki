@@ -1,0 +1,118 @@
+html, body
+{
+    margin : 0;
+    overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#sfondoHome
+{
+    margin : 0;
+    height: 100%;
+    width: 100%;
+}
+
+#contenitore
+{
+    position: relative;
+    height: 650px;
+}
+
+
+#overlay
+{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap : 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    top : 0;
+
+}
+
+#logo
+{
+    
+    display: flex;
+    align-items: center;
+}
+
+#imgLogo
+{
+    width: 250px;
+    height: 250px;
+    
+}
+
+#testoLogo
+{
+    font-size: 75px;
+    color: yellow;
+    margin-right: 40px;
+}
+
+#barra_intermedia
+{
+    height : 100px;
+    color : cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: black;
+}
+
+#Barra_Ricerca
+{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#Input
+{
+    margin-top: 30px;
+    width: 500px;
+    height: 40px;
+    border: solid black 5px;
+    border-radius: 30px;
+}
+
+#Griglia
+{
+    height: auto;
+    width: 100%;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.collegamenti
+{
+    margin-top: 60px;
+    margin-left : 20px;
+
+    height: 375px;
+    width: 250px;
+}
+
+.immagini_Giochi
+{
+    height: 375px;
+    width: 250px;
+    border: rgb(0, 0, 0) solid 10px;
+    border-radius: 5px;
+}
+
+
+
