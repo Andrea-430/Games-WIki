@@ -7,33 +7,28 @@ html, body
 }
 
 
-
-
-#sfondoHome
-{
-    margin : 0;
-    height: 100%;
-    width: 100%;
-}
-
 #contenitore
 {
     position: relative;
-    height: 650px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-image: url("../img/cyberpunk-2077rt.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 
 #overlay
 {
-    display : flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap : 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.459);
-    top : 0;
 
 }
 

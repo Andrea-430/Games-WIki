@@ -1,13 +1,12 @@
 const TitoloCercato = document.getElementById("Input");
 const ListaGiochi = document.querySelectorAll("#Griglia .collegamenti");
 
-TitoloCercato.addEventListener("keydown", ricerca);
+TitoloCercato.addEventListener("keyup", ricerca);
 
 
 function ricerca(evento)
 {
-    if(evento.key === "Enter")
-    {
+
         const filtro = TitoloCercato.value.toLowerCase();
         for(let i = 0; i < ListaGiochi.length; i++)
         {
@@ -23,5 +22,5 @@ function ricerca(evento)
                 link.style.display = "none"
             }
         }
-    }
+    
 }
