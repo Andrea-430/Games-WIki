@@ -7,7 +7,7 @@ TitoloCercato.addEventListener("keyup", ricerca);
 function ricerca(evento)
 {
 
-        const filtro = TitoloCercato.value.toLowerCase();
+        const filtro = TitoloCercato.value.toLowerCase().trim();
         for(let i = 0; i < ListaGiochi.length; i++)
         {
             const link = ListaGiochi[i];

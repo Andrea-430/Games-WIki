@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url("../Fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+    font-family: 'Minecraft';
+    src: url("../Fonts/minecraft-font/MinecraftRegular-Bmg3.otf")
+}
+
+
+
 html, body
 {
+    font-family: Minecraft;
     margin: 0;
     height: 100%;
     width: 100%;

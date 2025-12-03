@@ -1,6 +1,41 @@
-#panPrincipale
+@font-face {
+    font-family: 'Pixel';
+    src: url("../Fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+    font-family: 'Minecraft';
+    src: url("../Fonts/minecraft-font/MinecraftRegular-Bmg3.otf")
+}
+
+
+
+html, body
 {
+    height: 100%;
+    font-family: Minecraft;
+    font-size: 21px;
+    margin : 0;
     background-color: yellow;
+    background-image: url("../img/CroftManor.png");
+    background-size: cover;
+}
+
+#contenitore
+{
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#panPrincipale
+{
+    margin-top: 80px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color : lightblue;
+    height: 500px;
+    width: 1200px;
+    border-radius: 35px;
 }
