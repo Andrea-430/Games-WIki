@@ -1,0 +1,27 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+    margin : 0;
+}
+
+#pan1
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.305);
+    display : flex;
+    justify-content: center;
+}
+
+#pan2
+{
+    height : auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: green;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}

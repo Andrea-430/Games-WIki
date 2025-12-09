@@ -95,7 +95,7 @@ html, body
     width: 100%;
     background-color: yellow;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px,250px));
     align-items: center;
     justify-content: center;
     
@@ -112,8 +112,8 @@ html, body
 
 .immagini_Giochi
 {
-    height: 375px;
-    width: 250px;
+    aspect-ratio: 2 / 3;
+    width: 80%;
     border: rgb(0, 0, 0) solid 10px;
     border-radius: 5px;
 }
