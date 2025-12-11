@@ -1,27 +1,59 @@
-html, body
-{
-    height: 100%;
-    width: 100%;
-    margin : 0;
-}
+    @font-face {
+        font-family: Minecraft;
+        src: url(../Font/minecraft-font/MinecraftRegular-Bmg3.otf);
+    }
+    
+    
+    
+    
+    html, body
+    {
+        color : white;
+        font-family: Minecraft;
+        margin: 0;
+    }
 
-#pan1
-{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.305);
-    display : flex;
-    justify-content: center;
-}
+    #contenitore
+    {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
-#pan2
-{
-    height : auto;
-    width: 90%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: green;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
+    #sfondo
+    {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-image: url("../Immagini/CopperGolem.webp");
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    #pan2
+    {
+        font-size: 20px;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        background-color: rgba(255, 68, 0, 0.631);
+        border-radius: 30px;
+        border-width: 10px;
+        border-color: orangered;
+        border-style: solid;
+    }
+
+    #logo
+    {
+        aspect-ratio: 96 / 35;
+        height: 300px;
+        width: auto;
+    }
+
