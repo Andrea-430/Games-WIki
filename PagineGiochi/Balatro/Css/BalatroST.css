@@ -1,6 +1,6 @@
     @font-face {
-        font-family: Minecraft;
-        src: url(../Font/minecraft-font/MinecraftRegular-Bmg3.otf);
+        font-family: m6x11;
+        src: url(../Font/m6x11plus.ttf);
     }
     
     
@@ -9,7 +9,7 @@
     html, body
     {
         color : white;
-        font-family: Minecraft;
+        font-family: m6x11;
         margin: 0;
     }
 
@@ -26,7 +26,7 @@
         position: fixed;
         height: 100%;
         width: 100%;
-        background-image: url("../Immagini/CopperGolem.webp");
+        background-image: url(../Immagini/BalatroWP.png);
         background-size: cover;
         background-position: center;
         
@@ -43,16 +43,16 @@
         align-items: center;
         height: auto;
         width: 80%;
-        background-color: rgba(255, 68, 0, 0.631);
+        background-color: rgba(3, 199, 65, 0.631);
         border-radius: 30px;
         border-width: 10px;
-        border-color: orangered;
+        border-color: rgb(0, 255, 89);
         border-style: solid;
     }
 
     #logo
     {
-        aspect-ratio: 96 / 35;
+        aspect-ratio: 21 / 8;
         height: 300px;
         width: auto;
     }

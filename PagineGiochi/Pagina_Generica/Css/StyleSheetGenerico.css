@@ -1,6 +1,6 @@
     @font-face {
-        font-family: Minecraft;
-        src: url(../Font/minecraft-font/MinecraftRegular-Bmg3.otf);
+        font-family: ;
+        src: url();
     }
     
     
@@ -9,7 +9,7 @@
     html, body
     {
         color : white;
-        font-family: Minecraft;
+        font-family: ;
         margin: 0;
     }
 
@@ -26,7 +26,7 @@
         position: fixed;
         height: 100%;
         width: 100%;
-        background-image: url("../Immagini/CopperGolem.webp");
+        background-image: url();
         background-size: cover;
         background-position: center;
         
