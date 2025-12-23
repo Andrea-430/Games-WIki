@@ -1,0 +1,105 @@
+    @font-face {
+        font-family: Power Grotesk;
+        src: url("../Font/PowerGrotesk-Regular.ttf");
+    }
+    
+    
+    
+    
+    html, body
+    {
+        color : white;
+        font-family: Power Grotesk;
+        margin: 0;
+    }
+
+    #contenitore
+    {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #sfondo
+    {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-image: url("../Immagini/CelesteWP.png");
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    #pan2
+    {
+        font-size:18px;
+        position: relative;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 80%;
+        background-color: rgba(93, 167, 252, 0.631);
+        border-radius: 30px;
+        border-width: 10px;
+        border-color: rgb(57, 103, 255);
+        border-style: solid;
+    }
+
+    #logo
+    {
+        aspect-ratio: 4.69 / 1;
+        height: 200px;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    #Titolo
+    {
+        width: 80%;
+    }
+
+    #DescrizioneGioco
+    {
+        width: 80%;
+    }
+
+    #Gameplay
+    {
+        width: 80%;
+    }
+
+    #StoriaSviluppo
+    {
+        width: 80%;
+    }
+
+    #StoriaTeam
+    {
+        width: 80%;
+    }
+
+    #DataUscitaPiattaforme
+    {
+        width: 80%;
+    }
+
+    #CuriositaEasterEgg
+    {
+        width: 80%;
+    }
+
+    #AggiornamentiESupporto
+    {
+        width: 80%;
+    }
+
+    #ImpattoCulturale
+    {
+        width: 80%;
+    }
+

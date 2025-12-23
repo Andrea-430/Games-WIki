@@ -62,6 +62,12 @@ header
     text-decoration: none;
 }
 
+.collegamenti:hover
+{
+    color: rgb(212, 0, 255);
+    
+}
+
 #CorpoPagina
 {
     height: 100%;
