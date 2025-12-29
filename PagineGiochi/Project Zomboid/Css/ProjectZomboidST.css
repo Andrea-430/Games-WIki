@@ -9,7 +9,7 @@
     html, body
     {
         color : white;
-        font-family: Arial;
+        font-family: ;
         margin: 0;
     }
 
@@ -26,7 +26,7 @@
         position: fixed;
         height: 100%;
         width: 100%;
-        background-image: url(../immagini/BL.png);
+        background-image: url(../Immagini/PZWP.png);
         background-size: cover;
         background-position: center;
         
@@ -43,7 +43,7 @@
         align-items: center;
         height: auto;
         width: 80%;
-        background-color: rgba(19, 20, 20, 0.631);
+        background-color: rgba(88, 85, 84, 0.631);
         border-radius: 30px;
         border-width: 10px;
         border-color: rgb(49, 49, 49);
@@ -52,7 +52,7 @@
 
     #logo
     {
-        aspect-ratio: 96 / 35;
+        aspect-ratio: 1.51 / 1;
         height: auto;
         width: 70%;
     }
